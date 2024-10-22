@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<body>
+  <h1> Form Capture EUoptin </h1>
+<form id="Michela Form Capture Test" action="https://analytics-eu.clickdimensions.com/forms/h/akddcKN8zmkSQHy2LjYsK7" method="post">
+	<fieldset> 
+             First Name: <input type="text" name="FirstName" required/> <br>
+             Last Name: <input type="text" name="LastName" required/> <br>
+	     Email:  <input type="email" name="Email" required/> <br>
+	     Description: <input type="textarea" name="description"/> <br>
+	     Country list: <select name="ML_list">
+ 		<option value="Italy">Italy</option>
+  		<option value="Ireland">Ireland</option>
+  		<option value="Germany">Germany</option>
+  		<option value="France">France</option>
+		</select>
+		    <input type="submit" value="submit">
+	</fieldset>
+</form>
+
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script>
+	
+<script type="text/javascript">
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com');
+  cdAnalytics.setAccountKey('aVNUYFTkM064KVtKGw6Ujw');
+  cdAnalytics.setDomain('123.com');
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));
+  cdAnalytics.trackPage();
+</script>
+	
+</body>
+</html>
+
